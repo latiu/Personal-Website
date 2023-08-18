@@ -6,12 +6,20 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Lato', 'sans-serif'],
+    },
+
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'light-blue': '#B8C6F6',
+        'dark-blue': '#313352',
+        'light-pink': '#FFD8EB'
       },
+
+      fontFamily: {
+        'anton': ['Anton', 'sans-serif']
+      }
     },
   },
   plugins: [],
