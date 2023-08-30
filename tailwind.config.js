@@ -18,7 +18,7 @@ module.exports = {
       },
 
       fontFamily: {
-        'anton': ['Anton', 'sans-serif']
+        'barlow': ['Barlow Semi Condensed', 'sans-serif']
       }
     },
   },

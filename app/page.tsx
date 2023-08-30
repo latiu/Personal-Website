@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex p-24 h-[calc(100vh-72px)] items-center">     
       <div className="w-2/3">
         <h4>NAME</h4>
-        <h1 className="font-anton text-5xl">EMILY NIE</h1>
+        <h1 className="font-barlow text-5xl">EMILY NIE</h1>
         <h4 className="mt-4">// PROGRAM</h4>
         <h4>CS @ University of Waterloo</h4>
         <h4 className="mt-4">// BIOGRAPHY</h4>

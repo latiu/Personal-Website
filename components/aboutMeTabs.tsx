@@ -52,7 +52,7 @@ export default function aboutMeTabs(props:{tab1: String, tab2: String, tab3: Str
         <Tab label={props.tab2} {...a11yProps(1)} className="bg-light-pink"/>
         <Tab label={props.tab3} {...a11yProps(2)} className="bg-light-pink rounded-tr-lg"/>
         <div className="grid grid-cols-2 w-full">
-          <div className="font-anton text-5xl col-start-2 justify-self-end">{props.title}</div>
+          <div className="font-barlow text-5xl col-start-2 justify-self-end">{props.title}</div>
         </div>
       </Tabs>
 
