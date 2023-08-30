@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <header className="font-sans flex items-center justify-between bg-white p-6">
+    <header className="font-sans flex items-center justify-between bg-white p-4">
       <div>
         <Link href="/">
           <div className="flex items-center justify-between">
