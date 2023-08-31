@@ -46,17 +46,16 @@ export default function aboutMeTabs(props:{tab1: String, tab2: String, tab3: Str
   };
 
   return (
-    <div className="w-full h-full">
-      <Tabs value={value} onChange={handleChange} aria-label="tabs">
-        <Tab label={props.tab1} {...a11yProps(0)} className="bg-light-pink rounded-tl-lg"/>
-        <Tab label={props.tab2} {...a11yProps(1)} className="bg-light-pink"/>
-        <Tab label={props.tab3} {...a11yProps(2)} className="bg-light-pink rounded-tr-lg"/>
-        <div className="grid grid-cols-2 w-full">
-          <div className="font-barlow text-5xl col-start-2 justify-self-end">{props.title}</div>
-        </div>
+    <div className="w-full h-full text-right">
+    <h1 className="font-barlow text-3xl">{props.title}</h1>
+    <div className="w-full h-full flex">
+      <Tabs value={value} onChange={handleChange} aria-label="tabs" className="bg-light-pink rounded-l-lg" orientation="vertical">
+        <Tab label={props.tab1} {...a11yProps(0)} />
+        <Tab label={props.tab2} {...a11yProps(1)} />
+        <Tab label={props.tab3} {...a11yProps(2)} />
       </Tabs>
 
-      <Box className="w-full h-[calc(100%-48px)] bg-white">
+      <Box className="w-full bg-white text-left rounded-r-lg">
         <TabPanel value={value} index={0}>
           {props.tab1}
         </TabPanel>
@@ -67,6 +66,7 @@ export default function aboutMeTabs(props:{tab1: String, tab2: String, tab3: Str
           {props.tab3}
         </TabPanel>
       </Box>
+    </div>
     </div>
   );
 }
