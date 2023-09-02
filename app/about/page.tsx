@@ -63,7 +63,7 @@ export default function About() {
           <TabPanel value={value} index={0}>
             <div className="flex justify-center">
               <img src={portfolio.src} className='w-1/3 mr-4'></img>
-              <h1>It's been 10 years since I picked up my first sketchbook. Since then, I've expanded my skills to include not just sketching, but acrylic painting, clay modelling and digital art. From there I went into the field of graphic design, learning softwares such as Figma, Adobe, Inkscape and Canva and working for various nonprofits. That eventually led me to explore frontend development, and work towards becoming a full stack developer. I believe art is a universal language, and that beautiful user interfaces greatly affect a person’s daily experience. </h1>
+              <h1>It's been 10 years since I picked up my first sketchbook. Since then, I've expanded my skills to include not just sketching, but acrylic painting, clay modelling and digital art. From there I went into the field of graphic design, learning softwares such as Figma, Adobe, Inkscape and Canva and working for various nonprofits. That eventually led me to explore frontend development, and work towards becoming a full stack developer. </h1>
             </div>
           </TabPanel>
           <TabPanel value={value} index={1}>
