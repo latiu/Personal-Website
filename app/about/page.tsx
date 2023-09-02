@@ -67,7 +67,10 @@ export default function About() {
             </div>
           </TabPanel>
           <TabPanel value={value} index={1}>
-            dance
+            <div className="flex justify-center">
+              <div className='mr-4'><iframe width="720" height="405" src="https://www.youtube.com/embed/WzARfkz6uuc?si=RcwELcXqKlvS5WAv" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe></div>
+              <h1>I first picked up dance during quarantine, though I didn’t really start taking it seriously until university. It’s become one of my greatest hobbies, and I’m currently an executive for both the university’s hiphop club and a kpop dance crew. Besides just dancing, I help a lot with filming for sessions and covers. I’ve met so many amazing people through this hobby, and performing with them is always a pleasure.</h1>
+            </div>
           </TabPanel>
           <TabPanel value={value} index={2}>
             film
