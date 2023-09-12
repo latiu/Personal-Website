@@ -16,8 +16,8 @@ export default function Experience() {
         <Timeline position="alternate">
           <TimelineItem >
             <TimelineSeparator>
-              <TimelineDot className='bg-white' />
-              <TimelineConnector className='bg-white'/>
+              <TimelineDot sx={{ bgcolor: 'white' }} />
+              <TimelineConnector sx={{ bgcolor: 'white' }}/>
             </TimelineSeparator>
             <TimelineContent>
               <TimelineCard 
@@ -33,8 +33,8 @@ export default function Experience() {
           </TimelineItem>
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineDot className='bg-white' />
-              <TimelineConnector className='bg-white'/>
+              <TimelineDot sx={{ bgcolor: 'white' }} />
+              <TimelineConnector sx={{ bgcolor: 'white' }}/>
             </TimelineSeparator>
             <TimelineContent>
               <TimelineCard 
@@ -50,8 +50,8 @@ export default function Experience() {
           </TimelineItem>
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineDot className='bg-white' />
-              <TimelineConnector className='bg-white'/>
+              <TimelineDot sx={{ bgcolor: 'white' }} />
+              <TimelineConnector sx={{ bgcolor: 'white' }}/>
             </TimelineSeparator>
             <TimelineContent>
               <TimelineCard 
@@ -67,8 +67,8 @@ export default function Experience() {
           </TimelineItem>
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineDot className='bg-white' />
-              <TimelineConnector className='bg-white'/>
+              <TimelineDot sx={{ bgcolor: 'white' }}/>
+              <TimelineConnector sx={{ bgcolor: 'white' }}/>
             </TimelineSeparator>
             <TimelineContent>
               <TimelineCard 
@@ -84,8 +84,8 @@ export default function Experience() {
           </TimelineItem>
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineDot className='bg-white' />
-              <TimelineConnector className='bg-white'/>
+              <TimelineDot sx={{ bgcolor: 'white' }} />
+              <TimelineConnector sx={{ bgcolor: 'white' }}/>
             </TimelineSeparator>
             <TimelineContent>
               <TimelineCard 
@@ -101,7 +101,7 @@ export default function Experience() {
           </TimelineItem>
           <TimelineItem>
             <TimelineSeparator>
-              <TimelineDot className='bg-white' />
+              <TimelineDot sx={{ bgcolor: 'white' }} />
             </TimelineSeparator>
             <TimelineContent>
               <TimelineCard 
