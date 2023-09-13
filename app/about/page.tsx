@@ -73,7 +73,7 @@ export default function About() {
             </div>
           </TabPanel>
           <TabPanel value={value} index={2}>
-            film
+            coming soon!
           </TabPanel>
         </Box>
       </div>
