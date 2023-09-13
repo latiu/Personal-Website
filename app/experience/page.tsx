@@ -6,6 +6,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import rcafLogo from "/app/images/rcaf_logo.png";
 
 import TimelineCard from '@/components/timelinecard';
 
@@ -14,6 +15,23 @@ export default function Experience() {
       <main className="flex min-h-screen flex-col p-24 text-center">
         <h1 className="font-barlow text-3xl pb-4">EXPERIENCE</h1>
         <Timeline position="alternate">
+          <TimelineItem >
+              <TimelineSeparator>
+                <TimelineDot sx={{ bgcolor: 'white' }} />
+                <TimelineConnector sx={{ bgcolor: 'white' }}/>
+              </TimelineSeparator>
+              <TimelineContent>
+                <TimelineCard 
+                  title="Royal Canadian Air Force - The Flight Deck"
+                  subtitle="May 2023 - August 2023"
+                  position="Full-stack Developer"
+                  description="Working in a close knit team of 5, we were labelled as the forefront of innovation for the RCAF, pushing the limits of research and development. During my term, the main focus was fixing the problem of communication between students on the BTL (Basic Training List) and their managers. In simple terms, it’s the stage where new recruits to the military undergo their training. Through brainstorming and meeting with users, we decided to tackle the problem straight from the root - onboarding, a process which was nonexistent at the time. We decided to create a web app that acted as a central source of truth - a BTL portal that allowed for a back and forth line of communication between managers and students through guides, forums, announcements, faqs and feedback. Having a good knowledge of frontend and design, I spearheaded the prototyping process, coming up with a MVP in under 2 weeks using Figma, Vue.js, and Vuetify. Using Pinia as a state management system, I was able to persist some example data, making it demofyable. Through feedback on online demos with direct users both on the student and manager side, new features were implemented and ui/ux was constantly modified. When we reached a state everyone was satisfied with, we started building a backend, the goal being to produce a deployable app that could be directly tested by users. Using Node.js and Express.js, we effectively created controller and service layers that then connected to a PostgreSQL database through the ORM Sequelize. Example login in credentials were created, and sessions were implemented with express-session. Once that was done, we got the chance to visit the military base and interact with members of the BTL in person. They tested the program straight from the computer, and valuable feedback was gained. That marked the end of the work term, and we summarized all of this feedback into a master document for the next people to take over. Working at the RCAF was hands down the greatest learning and most rewarding experiences of my life."
+                  imageSrc={rcafLogo.src}
+                  link="https://www.theflightdeck.ca/"
+                  imageAlt="the RCAF logo"
+                />
+              </TimelineContent>
+            </TimelineItem>
           <TimelineItem >
             <TimelineSeparator>
               <TimelineDot sx={{ bgcolor: 'white' }} />
