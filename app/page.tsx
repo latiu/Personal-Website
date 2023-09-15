@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import avatar from "/app/images/avatar.png";
 
 export default function Home() {
@@ -6,9 +7,9 @@ export default function Home() {
       <div className="w-2/3">
         <h4>NAME</h4>
         <h1 className="font-barlow text-5xl">EMILY NIE</h1>
-        <h4 className="mt-4">// PROGRAM</h4>
+        <h4 className="mt-4">PROGRAM</h4>
         <h4>CS @ University of Waterloo</h4>
-        <h4 className="mt-4">// BIOGRAPHY</h4>
+        <h4 className="mt-4">BIOGRAPHY</h4>
         <h4>
             Hi! My name is Emily Nie and I’m a 2A Computer Science student at the University of Waterloo. I hope to develop innovative technology with stunning design, allowing for people around me to live easier and happier lives. In my spare time, you’ll probably catch me in a dance studio or at a gaming pc.
         </h4>
@@ -31,7 +32,7 @@ export default function Home() {
         </button>
       </div>
       <div className="w-1/3 flex items-center justify-center">
-        <img src={avatar.src} className="w-80 pl-12"></img>
+        <Image src={avatar.src} className="w-80 pl-12" alt='my avatar'/>
       </div>
     </main>
   )

@@ -4,6 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import Image from 'next/image';
 
 import portfolio from "/app/images/portfolio.png";
 
@@ -62,14 +63,14 @@ export default function About() {
         <Box className="w-full bg-white text-left rounded-r-lg">
           <TabPanel value={value} index={0}>
             <div className="flex justify-center">
-              <img src={portfolio.src} className='w-1/3 mr-4'></img>
-              <h1>It's been 10 years since I picked up my first sketchbook. Since then, I've expanded my skills to include not just sketching, but acrylic painting, clay modelling and digital art. From there I went into the field of graphic design, learning softwares such as Figma, Adobe, Inkscape and Canva and working for various nonprofits. That eventually led me to explore frontend development, and work towards becoming a full stack developer. </h1>
+            <Image src={portfolio.src} className='w-1/3 mr-4'alt='my art'/>
+              <h1>It&apos;s been 10 years since I picked up my first sketchbook. Since then, I&apos;ve expanded my skills to include not just sketching, but acrylic painting, clay modelling and digital art. From there I went into the field of graphic design, learning softwares such as Figma, Adobe, Inkscape and Canva and working for various nonprofits. That eventually led me to explore frontend development, and work towards becoming a full stack developer. </h1>
             </div>
           </TabPanel>
           <TabPanel value={value} index={1}>
             <div className="flex justify-center">
               <div className='mr-4'><iframe width="720" height="405" src="https://www.youtube.com/embed/WzARfkz6uuc?si=RcwELcXqKlvS5WAv" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe></div>
-              <h1>I first picked up dance during quarantine, though I didn’t really start taking it seriously until university. It’s become one of my greatest hobbies, and I’m currently an executive for both the university’s hiphop club and a kpop dance crew. Besides just dancing, I help a lot with filming for sessions and covers. I’ve met so many amazing people through this hobby, and performing with them is always a pleasure.</h1>
+              <h1>I first picked up dance during quarantine, though I didn&apos;t really start taking it seriously until university. It&apos;s become one of my greatest hobbies, and I&apos;m currently an executive for both the university&apos;s hiphop club and a kpop dance crew. Besides just dancing, I help a lot with filming for sessions and covers. I&apos;ve met so many amazing people through this hobby, and performing with them is always a pleasure.</h1>
             </div>
           </TabPanel>
           <TabPanel value={value} index={2}>
