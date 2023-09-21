@@ -18,11 +18,6 @@ const Navbar = () => {
                   ABOUT
               </div>
           </Link>
-          <Link href="/projects">
-              <div className="mr-4">
-                  PROJECTS
-              </div>
-          </Link>
           <Link href="/experience">
               <div className="mr-4">
                   EXPERIENCE
