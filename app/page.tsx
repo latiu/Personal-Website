@@ -26,7 +26,7 @@ export default function Home() {
             </a>
         </div>
         <button className="mt-4 p-1 px-2 rounded-lg bg-white">
-          <a href="https://drive.google.com/file/d/1UkAzv0ifndFpFpKxTrcD7BTxEQ6Vkbuv/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1ve1e3XXo-ceoJA5_RbyBydKtal3_2vLU/view?usp=sharing" target="_blank">
             resume
           </a>
         </button>
